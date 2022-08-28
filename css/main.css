@@ -1,2 +1,8 @@
 body{
-  }
+  background-color: white;
+}
+
+.container {
+  margin: 5% 25%;
+  color: black;
+  font-family: 'Times New Roman', sans-serif;
