@@ -6,6 +6,7 @@
   "author": "LekoArts",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
+  "homepage": "w-vac.github.io",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -13,7 +14,9 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public" 
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^5.1.4",
@@ -30,6 +33,8 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.5.3"
+    
   }
 }
