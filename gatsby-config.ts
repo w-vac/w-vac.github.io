@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
     siteTitle: `Will`,
     siteTitleAlt: `Will Canner - Portfolio`,
     siteHeadline: `Will Canner - Portfolio`,
-    siteUrl: `w-vac.github.io`,
+    siteUrl: `https://cara.lekoarts.de/`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
